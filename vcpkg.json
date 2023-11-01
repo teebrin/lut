@@ -1,0 +1,12 @@
+{
+  "name" : "lut",
+  "version-string" : "1.0.0",
+  "builtin-baseline" : "0e2a0e0ad1a370f85a637452be52e2ddf2dcac0b",
+  "dependencies" : [ {
+    "name" : "ms-gsl",
+    "version>=" : "4.0.0"
+  }, {
+    "name" : "gtest",
+    "version>=" : "1.13.0"
+  } ]
+}
