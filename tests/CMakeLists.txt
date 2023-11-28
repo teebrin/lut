@@ -1,7 +1,9 @@
 
 
 enable_testing()
-add_executable(lut_tests EXCLUDE_FROM_ALL lut_test.cpp
+add_executable(lut_tests EXCLUDE_FROM_ALL
+        EvenLut.cpp
+        UnevenLut.cpp
 )
 
 find_package(GTest CONFIG REQUIRED)
